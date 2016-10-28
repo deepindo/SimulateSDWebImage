@@ -17,8 +17,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 
-
-
 @end
 
 @implementation ViewController
@@ -47,11 +45,6 @@
     HMImageModel *model = self.imageArray[randomNum];
     
     [self.imageView downloadImageWithImageUrlStr:model.icon];
-    
-        
 }
-
-
-
 
 @end
